@@ -225,14 +225,6 @@ FAQ
 - Where does ODC matter here? Assertions make each optimistic step easy to verify or challenge.
 - What breaks EP? Anything nondeterministic: time, random, external fetches, reading local files.
 
-Next Extensions (pick one to learn more)
-----------------------------------------
-- Add a challenge phase with a finalization action after a delay provided as an argument.
-- Add stakes for parties and resolver; release or slash based on verdict.
-- Convert to a multi-dispute registry keyed by `dispute_id`.
-- Add event emission for frontends to stream updates.From Zero to GenLayer: Contract-Only Guide
-=========================================
-
 Goal
 ----
 Deploy a minimal Python Intelligent Contract (PIC) on GenLayer that models a simple dispute-resolution flow. This guide focuses only on the contract: author it, validate determinism, deploy via GenLayer Studio, and call it.
